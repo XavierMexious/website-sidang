@@ -1,0 +1,41 @@
+
+.html-login{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(perpustakaan.jpg);
+    background-size: cover;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+} 
+
+.tampilan-menu {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: #ECECEC;
+    position: absolute;
+    margin:inherit;
+    padding: inherit;
+    height: 60%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.username-input, .password-input, .button-input {
+    color:black;
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.button-input{
+    background-image: linear-gradient(#2e21be,#4f43ce);
+}
+
+.showpw {
+    display:flex;
+    justify-content: flex-start;
+}
