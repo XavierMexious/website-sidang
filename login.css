@@ -1,6 +1,6 @@
 
 .html-login{
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(perpustakaan.jpg);
+    background-image: url(Assets/bg.png);
     background-size: cover;
     margin: 50px;
     padding: 50px;
@@ -13,29 +13,51 @@
     box-sizing: border-box;
     background-color: #ECECEC;
     position: absolute;
-    margin:inherit;
-    padding: inherit;
-    height: 60%;
-    width: 40%;
+    height: 678px;
+    width: 678px;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+    font-weight: bold;
+    font-size: 48px;
+}
+.head {
+    margin: 35px 0;
 }
 
-.username-input, .password-input, .button-input {
+.username-input, .button-input {
     color:black;
-    width: 75%;
+    height: 60px;
+    width: 508px;
+    padding: 12px 20px;
+    margin: 30px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+#password-input
+{
+    color:black;
+    height: 60px;
+    width: 508px;
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
+    border-radius: 8px;
     box-sizing: border-box;
+    font-size: 24px;
 }
 
 .button-input{
-    background-image: linear-gradient(#2e21be,#4f43ce);
+    background-image: linear-gradient(#254edb,#254edb);
+    color: #ffffff;
+    font-size: 32px;
 }
 
 .showpw {
     display:flex;
     justify-content: flex-start;
+    
 }
