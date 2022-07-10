@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    background-image: url(Assets/bg.png);
+    background-image: url(Assets/landingpage/bg.png);
     background-size: cover;
 }
 .logo {
