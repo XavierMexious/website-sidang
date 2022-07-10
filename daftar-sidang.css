@@ -73,7 +73,7 @@ align-self: center;
 }
 
 
-.daftar-sidang{
+.header{
   position: relative;
   margin-bottom: 2.5%;
   left:30px;
@@ -129,6 +129,7 @@ align-self: center;
 }
 
 .daftar{
+  display:flex;
   width:1186px;
   height:38px;
   border-radius: 15px;
