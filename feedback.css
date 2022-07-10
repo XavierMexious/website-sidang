@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mp {
+    display: flex;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  .sidebar {
+    background-image: url(Assets/mp-dosen/bg.png);
+    background-size: cover;
+    flex: 11;
+  }
+  .dot {
+    background-image: url(Assets/mp-dosen/profile.png);
+    background-size: cover;
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 1%;
+  }
+  .myprofile {
+    color:white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20%;
+  }
+  .myprofile >p {
+    padding: 0 10px;
+  }
+  
+  .menu-option {
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  }
+  
+  .menu-option >img {
+    margin: 0px 15px;
+  }
+  .option {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: stretch;
+  }
+  .esgulpage {
+    background-image:url(Assets/mp-dosen/esgulpage.png);
+    background-size: cover;
+    display: flex;
+    flex: 37;
+    justify-content: center;
+  }
+  
+  
+  .rectangle{
+  width:1292px;
+  height:862px;
+  background-color:#A94F88;
+  border-radius: 30px;
+  align-self: center;
+  justify-content: center;
+  }
+
+  .rectangle2{
+    width:1207px;
+    height:498px;
+    background-color:#D9D9D9;
+    opacity: 50%;
+    margin: 0 auto;
+    margin-top: 4%;
+  }
+
+  .header{
+    font-size:24px;
+    font-weight: bold;
+    padding-left:2%;
+    top:1.5em;
+    position: relative;
+    
+  }
+
+  .line1{
+    width:1207px;
+    height:1px;
+    background-color:#000000;
+    opacity:33%;
+    position: relative;
+    top:1em;
+  }
+
+  .status{
+    position: relative;
+    top:3.5em;
+    padding-left:2%;
+    font-size:24px;
+    font-weight: bold;
+  }
+
+  .rectangle3{
+    width:705px;
+    height:243px;
+    background-color:#FFFFFF;
+    opacity: 35%;
+    position: relative;
+    top:6rem; 
+    left:1.5rem; 
+  }
