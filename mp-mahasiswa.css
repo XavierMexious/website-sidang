@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+  }
+
 .mp {
     display: flex;
     height: 100vh;
@@ -28,15 +32,18 @@
     color:white;
     display: flex;
     align-items: center;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
+    margin-bottom: 20%;
 }
+
 .myprofile >p {
     padding: 0 20px;
 }
 
-button {
+.menu-option >img {
+    margin: 0px 15px;
+}
+
+.menu-option {
     border-radius: 10px;
     border: none;
     margin: 15px;
@@ -44,11 +51,23 @@ button {
     display: flex;
     align-items: center;
     padding: 0px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+
+.menu-option button{
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
 }
 
-.menu-option >img {
-    margin: 0px 15px;
-}
 .option {
     display: flex;
     align-items: center;
@@ -71,9 +90,13 @@ button {
     display: flex;
     margin: 5% 6%;
     border-radius: 3%;
+    justify-content: center;
+    align-content: center;
 }
 
 .jadwal {
+    left:10px;
+    position: absolute;
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -86,8 +109,9 @@ button {
 }
 
 .tabel {
-    width:50ex;
-    height:50ex;
+    text-align: center;
+    width:55rem;
+    height:35rem;
     background-color:white;
     position: absolute;
     display: flex;
@@ -97,6 +121,7 @@ button {
 }
 
 table, th, td {
+    width: 55rem;
     border: 1px solid black;
     border-radius: 2%;
 }
