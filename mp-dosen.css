@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+  }
+
 .mp {
     display: flex;
     height: 100vh;
@@ -30,18 +34,9 @@
     align-items: center;
     margin-bottom: 20%;
 }
+
 .myprofile >p {
     padding: 0 20px;
-}
-
-button {
-    border-radius: 10px;
-    border: none;
-    margin: 15px;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    padding: 0px 20px;
 }
 
 .menu-option >img {
@@ -49,6 +44,7 @@ button {
 }
 
 .menu-option {
+    background-color: #ffffff;
     border-radius: 10px;
     border: none;
     margin: 15px;
@@ -59,19 +55,6 @@ button {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
   }
-
-.menu-option button{
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    border: none;
-    margin: 15px;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    padding: 0px 20px;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-}
 
 .option {
     display: flex;
@@ -95,9 +78,13 @@ button {
     display: flex;
     margin: 5% 6%;
     border-radius: 3%;
+    justify-content: center;
+    align-content: center;
 }
 
 .jadwal {
+    left:10px;
+    position: absolute;
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
@@ -110,8 +97,9 @@ button {
 }
 
 .tabel {
-    width:50ex;
-    height:50ex;
+    text-align: center;
+    width:55rem;
+    height:35rem;
     background-color:white;
     position: absolute;
     display: flex;
@@ -121,6 +109,7 @@ button {
 }
 
 table, th, td {
+    width: 55rem;
     border: 1px solid black;
     border-radius: 2%;
 }
@@ -128,5 +117,4 @@ table, th, td {
 a {
     text-decoration: none;
 }
-
 

@@ -114,4 +114,7 @@ table, th, td {
     border-radius: 2%;
 }
 
+a {
+    text-decoration: none;
+}
 
