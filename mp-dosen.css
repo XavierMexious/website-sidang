@@ -28,9 +28,7 @@
     color:white;
     display: flex;
     align-items: center;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
+    margin-bottom: 20%;
 }
 .myprofile >p {
     padding: 0 20px;
@@ -49,6 +47,32 @@ button {
 .menu-option >img {
     margin: 0px 15px;
 }
+
+.menu-option {
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+
+.menu-option button{
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
 .option {
     display: flex;
     align-items: center;

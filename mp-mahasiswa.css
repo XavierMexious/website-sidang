@@ -44,6 +44,7 @@ a {
 }
 
 .menu-option {
+    background-color: #ffffff;
     border-radius: 10px;
     border: none;
     margin: 15px;
@@ -54,19 +55,6 @@ a {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
   }
-
-.menu-option button{
-    background-color: #f0f0f0;
-    border-radius: 10px;
-    border: none;
-    margin: 15px;
-    width: 80%;
-    display: flex;
-    align-items: center;
-    padding: 0px 20px;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-}
 
 .option {
     display: flex;

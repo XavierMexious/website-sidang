@@ -35,6 +35,7 @@
     border-radius: 8px;
     box-sizing: border-box;
     font-size: 24px;
+    margin: 2vh 0;
   
 }
 
@@ -48,6 +49,7 @@
     border-radius: 8px;
     box-sizing: border-box;
     font-size: 24px;
+    margin: 2vh 0;
 
 }
 
@@ -67,11 +69,17 @@
 }
 
 .showpw {
-    display:flex;
-    justify-content: flex-start;
+    position: absolute; ;
+    right: 100px;
+    top: calc(30.75vh + 2.5px);
     
 }
 
 a {
     text-decoration: none;
+}
+
+a img{
+    position:absolute;
+    left: 9px;
 }
