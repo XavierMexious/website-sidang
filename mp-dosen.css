@@ -82,14 +82,27 @@ button {
     color: white;
     margin-top: 2%;
     margin-left: 5%;
+    display: flex;
 }
 
-.hari {
-    width:65rem;
-    height:35rem;
+.tabel {
+    width:50ex;
+    height:50ex;
     background-color:white;
     position: absolute;
     display: flex;
+    justify-content: space-between;
     margin: 10% 6%;
-    border-radius: 3%;
+    border-radius: 2%;
 }
+
+table, th, td {
+    border: 1px solid black;
+    border-radius: 2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+
