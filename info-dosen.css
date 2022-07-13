@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mp {
+    display: flex;
+    height: 100vh;
+}
+.sidebar {
+    background-image: url(Assets/mp-dosen/bg.png);
+    background-size: cover;
+    flex: 11;
+}
+.dot {
+    background-image: url(Assets/mp-dosen/profile.png);
+    background-size: cover;
+    height: 3rem;
+    width: 3rem;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+.myprofile {
+    color:white;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.myprofile >p {
+    padding: 0 20px;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    margin: 15px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.menu-option >img {
+    margin: 0px 15px;
+}
+.option {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.esgulpage {
+    background-image:url(Assets/mp-dosen/esgulpage.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex: 37;
+}
+
+.info-ms{
+    width:75rem;
+    height:50rem;
+    background-color:#A94F88;
+    position: absolute;
+    display: flex;
+    margin: 5% 6%;
+    border-radius: 3%;
+}
